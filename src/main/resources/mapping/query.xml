@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+
+<mapper namespace="com.express.magarine.api">  <!-- 불러올 쿼리를 저장하는곳 -->
+	<select id="selectName" resultType="string">
+		SELECT MMR_ID
+		FROM TB_MEMBER
+	</select>
+</mapper>
